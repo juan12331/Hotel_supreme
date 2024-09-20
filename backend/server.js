@@ -4,13 +4,14 @@ const cors = require('cors');
 // const usuarios = require('./models/users');
 // const quartos = require('./models/quartos');
 // const imagens = require('./models/imagens')
+// const categorias = require('./models/categorias')
 const cookieParser = require('cookie-parser')
 
 // usuarios.sync();
 // quartos.sync();
 // livros.sync();
 // imagens.sync();
-
+// categorias.sync();
 
 
 
