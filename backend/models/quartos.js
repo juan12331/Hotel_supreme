@@ -1,7 +1,8 @@
 const Sequelize = require('sequelize')
 const database = require('../config/sequelize')
 const { default_type } = require('mime');
-const users = require('./users')
+const users = require('./users');
+const sequelize = require('sequelize');
 
 const quartos = database.define('quartos', {
 
@@ -30,6 +31,10 @@ const quartos = database.define('quartos', {
     },
     descricao: {
         type: Sequelize.STRING(500),
+        allowNull: false
+    },
+    categoria: {
+        type: sequelize.INTEGER,
         allowNull: false
     }
 });
