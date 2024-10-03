@@ -23,11 +23,11 @@ const imagens = database.define('imagens', {
 });
 
 quartos.hasMany(imagens, {
-    foreignKey: 'id_autor'
+    foreignKey: 'id_quarto'
 })
 
 imagens.belongsTo(quartos, {
-    foreignKey: 'id_autor'
+    foreignKey: 'id_quarto'
 });
 
 module.exports = imagens

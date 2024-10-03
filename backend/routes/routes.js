@@ -15,3 +15,5 @@ routes.post('/login', UsuariosControllers.login)
 
 
 //função das imagens
+
+module.exports = routes

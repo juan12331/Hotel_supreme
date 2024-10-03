@@ -25,10 +25,6 @@ const quartos = database.define('quartos', {
         type: Sequelize.FLOAT,
         defaultValue: undefined
     },
-    imagem: {
-        type: Sequelize.STRING(300),
-        allowNull: false
-    },
     descricao: {
         type: Sequelize.STRING(500),
         allowNull: false
