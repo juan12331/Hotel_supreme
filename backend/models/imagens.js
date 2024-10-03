@@ -17,7 +17,7 @@ const imagens = database.define('imagens', {
         allowNull: false,
     },
     id_quarto: {
-        type: Sequelize.STRING,
+        type: Sequelize.INTEGER,
         allowNull: false
     },
 });
