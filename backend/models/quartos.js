@@ -33,10 +33,7 @@ const quartos = database.define('quartos', {
         type: Sequelize.STRING(500),
         allowNull: false
     },
-    categoria: {
-        type: sequelize.INTEGER,
-        allowNull: false
-    }
+    
 });
 
 users.hasMany(quartos, {
