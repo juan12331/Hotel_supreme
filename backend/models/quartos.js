@@ -42,4 +42,4 @@ quartos.belongsTo(users, {
     foreignKey: 'cpf'
 });
 
-module.exports = livros
+module.exports = quartos

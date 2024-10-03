@@ -30,4 +30,4 @@ imagens.belongsTo(quartos, {
     foreignKey: 'id_autor'
 });
 
-module.exports = livros
+module.exports = imagens
